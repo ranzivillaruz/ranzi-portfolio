@@ -5,7 +5,7 @@
       <div class="text-xl font-bold text-gray-800 hidden md:block"> My Portfolio
       </div>
 
-      <nav class="flex items-center space-x-4 md:space-x-6">
+      <nav class="flex items-center space-x-4 md:space-x-6 text-sm md:text-base">
         <router-link to="/" class="text-red-400 hover:text-red-300">Profile</router-link>
         <router-link to="/creative" class="text-red-400 hover:text-red-300">Tech Stack</router-link>
         <router-link to="/showcase" class="text-red-400 hover:text-red-300">Hobbies</router-link>
