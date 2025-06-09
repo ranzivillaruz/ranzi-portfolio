@@ -2,11 +2,10 @@
   <header class="bg-gray-800">
     <Toast position="top-right" group="main" /> 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
-      <div class="text-xl font-bold text-gray-800">
-        My Portfolio
+      <div class="text-xl font-bold text-gray-800 hidden md:block"> My Portfolio
       </div>
 
-      <nav class="space-x-6 hidden md:flex">
+      <nav class="flex items-center space-x-4 md:space-x-6">
         <router-link to="/" class="text-red-400 hover:text-red-300">Profile</router-link>
         <router-link to="/creative" class="text-red-400 hover:text-red-300">Tech Stack</router-link>
         <router-link to="/showcase" class="text-red-400 hover:text-red-300">Hobbies</router-link>
