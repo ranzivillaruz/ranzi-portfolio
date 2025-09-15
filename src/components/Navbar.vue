@@ -1,7 +1,7 @@
 <template>
   <header class="bg-gray-800">
     <Toast position="top-right" group="main" /> 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center h-16">
       <div class="text-xl font-bold text-gray-800 hidden md:block"> My Portfolio
       </div>
 
@@ -12,7 +12,7 @@
         <router-link to="/contact" class="text-red-400 hover:text-red-300">Contact</router-link>
       </nav>
 
-      <div class="relative">
+      <!-- <div class="relative">
         <button
           class="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700"
           @click="toggleDropdown"
@@ -58,7 +58,7 @@
             Logout
           </button>
         </div>
-      </div>
+      </div> -->
     </div>
   </header>
 </template>
